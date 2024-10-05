@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.head-calc {
+  @apply text-4xl;
+}
