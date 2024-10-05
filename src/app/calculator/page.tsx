@@ -73,7 +73,7 @@ export default function Calculator() {
     <div className="min-h-screen bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center p-4">
       <Card className="w-full max-w-md bg-sky-800 shadow-2xl rounded-3xl overflow-hidden transform perspective-1000 rotate-x-5">
         <CardHeader className="bg-blue-900 text-white p-6">
-          <CardTitle className="text-[3rem] mt-4 mb-4 font-bold text-center">Calculator</CardTitle>
+          <CardTitle className="text-[3.25rem] mt-4 mb-4 font-bold text-center">Calculator</CardTitle>
         </CardHeader>
         <CardContent className="p-6 bg-gradient-to-b from-blue-700 to-blue-800">
           <div className="bg-sky-200 p-4 rounded-xl mb-6 shadow-inner transform -rotate-x-3">
