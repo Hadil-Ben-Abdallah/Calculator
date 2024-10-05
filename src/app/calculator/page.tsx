@@ -72,12 +72,12 @@ export default function Calculator() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center p-4">
       <Card className="w-full max-w-md bg-sky-800 shadow-2xl rounded-3xl overflow-hidden transform perspective-1000 rotate-x-5">
-        <CardHeader className="bg-sky-900 text-white p-6 rounded-t-3xl">
-          <CardTitle className="text-5xl font-bold text-center">Calculator</CardTitle>
+        <CardHeader className="bg-blue-900 text-white p-6">
+          <CardTitle className="text-[3rem] mt-3 mb-3 font-bold text-center">Calculator</CardTitle>
         </CardHeader>
-        <CardContent className="p-6 bg-gradient-to-b from-sky-700 to-sky-800">
+        <CardContent className="p-6 bg-gradient-to-b from-blue-700 to-blue-800">
           <div className="bg-sky-200 p-4 rounded-xl mb-6 shadow-inner transform -rotate-x-3">
-            <div className="text-right text-4xl font-bold text-sky-900 break-all h-12 flex items-center justify-end">
+            <div className="text-right text-3xl font-bold text-sky-900 break-all h-12 flex items-center justify-end">
               {display}
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Calculator() {
                 }}
                 className={`text-2xl font-bold h-16 rounded-xl transform transition-all duration-150 active:translate-y-1 active:shadow-inner ${
                   ["+", "-", "×", "÷", "="].includes(btn)
-                    ? "bg-sky-500 hover:bg-sky-600 text-white shadow-md"
+                    ? "bg-sky-400 hover:bg-sky-500 text-white shadow-md"
                     : "bg-sky-100 hover:bg-sky-200 text-sky-900 shadow-md"
                 }`}
               >
