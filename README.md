@@ -5,4 +5,4 @@ A calculator with Next.js and Shadcn
 
 <a href="https://calculator-plum-rho.vercel.app/">Try it here</a>
 
-If you like it, you're welcome to fork it 😊
+Feel free to customize it further based on your experience! 😊
